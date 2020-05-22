@@ -102,6 +102,10 @@ button:active {
           transform: translateY(3px);
 }
 
+button:focus {
+  outline: 0;
+}
+
 header {
   background-image: url("images/bg-header-mobile.png");
   background-size: cover;

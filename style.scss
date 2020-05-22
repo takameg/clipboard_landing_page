@@ -1,0 +1,489 @@
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$breakpoint: 960px;
+$boldcolor: #4c545d;
+$lightcolor: #9fabb2;
+$cyan: #26baa4;
+$cyandark: #22a390;
+$cyanlight: #27d8bd;
+$blue: #6173ff;
+$bluedark: #5766d8;
+$bluelight: #8593fa;
+$bg-gray: #f0f0f0;
+$white: rgba(255, 255, 255, 0.863);
+
+
+.block {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 31px;
+}
+
+h1, h2, p, ul {
+ text-align: center;
+}
+
+h1, h2 {
+  color: $boldcolor;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+p {
+  color: $lightcolor;
+  letter-spacing: 0.01em;
+  line-height: 1.65em;
+}
+
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $boldcolor;
+  font-size: 18px;
+}
+
+a:hover {
+  color: $cyan;
+}
+
+button, img, a {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  width: 100%;
+  height: 54px;
+  border: none;
+  border-radius: 50px;
+  color: $white;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 17px; 
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.iOS {
+  background-color: $cyan;
+  box-shadow: 0px 3px $cyandark;
+  margin-bottom: 27px;
+}
+
+.Mac {
+  background-color: $blue;
+  box-shadow: 0px 3px $bluedark;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.iOS:hover {
+  background-color: $cyanlight;
+}
+
+.Mac:hover {
+  background-color: $bluelight;
+}
+
+button:active {
+  outline: 0;
+  box-shadow: none;
+  transform: translateY(3px);
+}
+
+.block1 {
+  background-image: url("images/bg-header-mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 123px;
+  
+  h1 {
+    margin-top: 65px;
+    font-size: 31px;
+  }
+  
+  p {
+    margin: 17px 0 48px 0;
+  } 
+}
+
+.block2 {
+  padding-top: 162px;
+
+  .center {
+    p {
+      margin: 15px 0 65px 0;
+    } 
+  }
+
+  .left {
+    width: 100%;
+  } 
+
+  .right {
+    padding-top: 12px;
+
+    h2 {
+      margin-top: 46px;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+  } 
+}
+
+.block3 {
+  padding-top: 183px;
+
+  p {
+    margin-top: 15px;
+  }
+
+  img {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+ 
+.block4 {
+  padding-top: 100px;
+
+  p {
+    margin-top: 10px;
+  }
+
+  .points {
+    padding-top: 35px;
+
+    img {
+      margin-top: 55px;
+    }
+
+    h2 {
+      margin-top: 41px;
+    } 
+
+    p {
+      margin-top: 17px;
+    }
+  }
+
+  .co-logos {
+    padding-top: 130px;
+
+    #google {
+      width: 45%;
+    }
+
+    #ibm, #hp {
+      width: 37%;
+      margin-top: 65px;
+    }
+
+    #ms {
+      width: 43%;
+      margin-top: 70px;
+    }
+
+    #vg {
+      width: 34%;
+      margin-top: 53px;
+    }
+  }
+}
+
+.block5 {
+  padding-top: 170px;
+
+  p {
+    margin: 17px 0 48px 0;
+  } 
+}
+
+.block6 {
+  margin-top: 172px;
+  padding-top: 52px;
+  background-color: $bg-gray;
+
+  img {
+    width: 18%;
+  }
+
+  .menu {
+    padding-top: 15px;
+    
+    li {
+      margin-top: 28px;
+    }  
+    
+    li:hover {
+      font-weight: 600;
+    }
+  }
+
+  .sns {
+    width: 48%;
+    margin: 0 auto;
+    padding-top: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .svg:hover {
+      fill: $cyan;
+    }
+  }
+
+  .attribution {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+
+    a {
+      font-size: 12px;
+      display: inline-block;
+    }
+  }  
+}
+
+
+
+@media screen and (min-width: $breakpoint) {
+
+  .block {
+    max-width: 1440px;
+    padding: 0;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } 
+
+  .btn {
+    justify-content: center;
+  }
+
+  button {
+    width: 36%; 
+    margin: 0 9px 0 9px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+  
+  h2 {
+    font-size: 23px;
+  }
+  
+  p {
+    font-size: 17px;
+  }
+
+  .block1 {
+    background-image: url("images/bg-header-desktop.png");
+    padding: 130px 375px 0 375px;
+    
+    h1 {
+      margin-top: 55px;
+      font-size: 44.5px;
+    }
+    
+    p {
+      font-size: 20px;
+      line-height: 1.5em;
+    } 
+  }
+
+  .block2 {
+    padding-top: 128px;
+    position: relative;
+    overflow: hidden;
+  
+    .center {
+      padding: 0 375px 0 375px;
+
+      p {
+        line-height: 1.7em;
+        margin: 22px 0 80px 0;
+      } 
+    }
+  
+    .left {
+      width: 57%;
+      margin: 0;
+      position: relative;
+      left: -30px;
+      
+    } 
+  
+    .right {
+      width: 50%;
+      padding: 20px 250px 0 80px;
+      
+      h2 {
+        margin-top: 55px;
+        text-align: left;
+      }
+  
+      p {
+        font-size: 16px;
+        text-align: left;
+      }
+    } 
+  }
+
+  .block3 {
+    padding-top: 150px;
+    
+    
+    p {
+      padding: 0 380px 0 380px;
+      line-height: 1.7em;
+      margin: 22px 0 80px 0;
+    } 
+  
+    img {
+      width: 63%;
+      margin-top: 100px;
+    }
+  }
+
+  .block4 {
+    padding-top: 70px;
+
+    p {
+      margin-top: 20px;
+    }
+  
+    .points {
+      padding-top: 20px;
+      justify-content: center;
+
+      .point {
+        width: 25%;
+        margin: 0 10px 0 10px;
+    
+        h2 {
+          margin-top: 45px;
+        } 
+    
+        p {
+          font-size: 16px;
+        }
+      }
+
+      #list h2 {
+        margin-top: 36px;
+      }
+    }
+  
+    .co-logos {
+      padding-top: 168px;
+      justify-content: center;
+      align-items: center;
+
+      #google {
+        width: 12%;
+        height: 49px;
+        margin: 0 50px;
+      }
+  
+      #ibm, #hp {
+        width: 10%;
+        height: 49px;    
+        margin: 0 50px;  
+      }
+  
+      #ms {
+        width: 11%;
+        height: 35px;
+        margin: 0 50px;
+      }
+  
+      #vg {
+        width: 9%;
+        height: 30px;
+        margin: 0 50px;
+      }
+    }
+  }
+
+  .block5 {
+    padding: 160px 375px 0 375px;
+
+    p {
+      margin: 20px 0 48px 0;
+    } 
+  }
+  
+  .block6 {
+    margin-top: 125px;
+    padding: 42px 0 10px 0;
+  
+    .flex {
+      height: 75px;
+    
+      img {
+        width: 55px;
+        height: 55px; 
+        margin: 10px 165px 0 136px;
+      }
+    
+      .menu {
+        width: 40%;
+        flex-flow: column wrap;
+        text-align: left;
+        padding: 0;
+
+        li {
+          margin: 5px 0;
+        }
+     
+      }
+    
+      .sns {
+        width: 8%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+        margin-left: 230px;
+        
+        svg {
+          margin: 0 12px;
+        }
+      }
+    }
+
+    .attribution {
+      margin-top: 30px;
+      margin-bottom: 0;
+    } 
+  }
+}
+
+

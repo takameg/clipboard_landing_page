@@ -1,0 +1,459 @@
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.block {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 31px;
+}
+
+h1, h2, p, ul {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #4c545d;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+p {
+  color: #9fabb2;
+  letter-spacing: 0.01em;
+  line-height: 1.65em;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4c545d;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #26baa4;
+}
+
+button, img, a {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  width: 100%;
+  height: 54px;
+  border: none;
+  border-radius: 50px;
+  color: rgba(255, 255, 255, 0.863);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.iOS {
+  background-color: #26baa4;
+  -webkit-box-shadow: 0px 3px #22a390;
+          box-shadow: 0px 3px #22a390;
+  margin-bottom: 27px;
+}
+
+.Mac {
+  background-color: #6173ff;
+  -webkit-box-shadow: 0px 3px #5766d8;
+          box-shadow: 0px 3px #5766d8;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.iOS:hover {
+  background-color: #27d8bd;
+}
+
+.Mac:hover {
+  background-color: #8593fa;
+}
+
+button:active {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.block1 {
+  background-image: url("images/bg-header-mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 123px;
+}
+
+.block1 h1 {
+  margin-top: 65px;
+  font-size: 31px;
+}
+
+.block1 p {
+  margin: 17px 0 48px 0;
+}
+
+.block2 {
+  padding-top: 162px;
+}
+
+.block2 .center p {
+  margin: 15px 0 65px 0;
+}
+
+.block2 .left {
+  width: 100%;
+}
+
+.block2 .right {
+  padding-top: 12px;
+}
+
+.block2 .right h2 {
+  margin-top: 46px;
+}
+
+.block2 .right p {
+  margin-top: 10px;
+}
+
+.block3 {
+  padding-top: 183px;
+}
+
+.block3 p {
+  margin-top: 15px;
+}
+
+.block3 img {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.block4 {
+  padding-top: 100px;
+}
+
+.block4 p {
+  margin-top: 10px;
+}
+
+.block4 .points {
+  padding-top: 35px;
+}
+
+.block4 .points img {
+  margin-top: 55px;
+}
+
+.block4 .points h2 {
+  margin-top: 41px;
+}
+
+.block4 .points p {
+  margin-top: 17px;
+}
+
+.block4 .co-logos {
+  padding-top: 130px;
+}
+
+.block4 .co-logos #google {
+  width: 45%;
+}
+
+.block4 .co-logos #ibm, .block4 .co-logos #hp {
+  width: 37%;
+  margin-top: 65px;
+}
+
+.block4 .co-logos #ms {
+  width: 43%;
+  margin-top: 70px;
+}
+
+.block4 .co-logos #vg {
+  width: 34%;
+  margin-top: 53px;
+}
+
+.block5 {
+  padding-top: 170px;
+}
+
+.block5 p {
+  margin: 17px 0 48px 0;
+}
+
+.block6 {
+  margin-top: 172px;
+  padding-top: 52px;
+  background-color: #f0f0f0;
+}
+
+.block6 img {
+  width: 18%;
+}
+
+.block6 .menu {
+  padding-top: 15px;
+}
+
+.block6 .menu li {
+  margin-top: 28px;
+}
+
+.block6 .menu li:hover {
+  font-weight: 600;
+}
+
+.block6 .sns {
+  width: 48%;
+  margin: 0 auto;
+  padding-top: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block6 .sns .svg:hover {
+  fill: #26baa4;
+}
+
+.block6 .attribution {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.block6 .attribution a {
+  font-size: 12px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 960px) {
+  .block {
+    max-width: 1440px;
+    padding: 0;
+  }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .btn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  button {
+    width: 36%;
+    margin: 0 9px 0 9px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .block1 {
+    background-image: url("images/bg-header-desktop.png");
+    padding: 130px 375px 0 375px;
+  }
+  .block1 h1 {
+    margin-top: 55px;
+    font-size: 44.5px;
+  }
+  .block1 p {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  .block2 {
+    padding-top: 128px;
+    position: relative;
+    overflow: hidden;
+  }
+  .block2 .center {
+    padding: 0 375px 0 375px;
+  }
+  .block2 .center p {
+    line-height: 1.7em;
+    margin: 22px 0 80px 0;
+  }
+  .block2 .left {
+    width: 57%;
+    margin: 0;
+    position: relative;
+    left: -30px;
+  }
+  .block2 .right {
+    width: 50%;
+    padding: 20px 250px 0 80px;
+  }
+  .block2 .right h2 {
+    margin-top: 55px;
+    text-align: left;
+  }
+  .block2 .right p {
+    font-size: 16px;
+    text-align: left;
+  }
+  .block3 {
+    padding-top: 150px;
+  }
+  .block3 p {
+    padding: 0 380px 0 380px;
+    line-height: 1.7em;
+    margin: 22px 0 80px 0;
+  }
+  .block3 img {
+    width: 63%;
+    margin-top: 100px;
+  }
+  .block4 {
+    padding-top: 70px;
+  }
+  .block4 p {
+    margin-top: 20px;
+  }
+  .block4 .points {
+    padding-top: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .block4 .points .point {
+    width: 25%;
+    margin: 0 10px 0 10px;
+  }
+  .block4 .points .point h2 {
+    margin-top: 45px;
+  }
+  .block4 .points .point p {
+    font-size: 16px;
+  }
+  .block4 .points #list h2 {
+    margin-top: 36px;
+  }
+  .block4 .co-logos {
+    padding-top: 168px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .block4 .co-logos #google {
+    width: 12%;
+    height: 49px;
+    margin: 0 50px;
+  }
+  .block4 .co-logos #ibm, .block4 .co-logos #hp {
+    width: 10%;
+    height: 49px;
+    margin: 0 50px;
+  }
+  .block4 .co-logos #ms {
+    width: 11%;
+    height: 35px;
+    margin: 0 50px;
+  }
+  .block4 .co-logos #vg {
+    width: 9%;
+    height: 30px;
+    margin: 0 50px;
+  }
+  .block5 {
+    padding: 160px 375px 0 375px;
+  }
+  .block5 p {
+    margin: 20px 0 48px 0;
+  }
+  .block6 {
+    margin-top: 125px;
+    padding: 42px 0 10px 0;
+  }
+  .block6 .flex {
+    height: 75px;
+  }
+  .block6 .flex img {
+    width: 55px;
+    height: 55px;
+    margin: 10px 165px 0 136px;
+  }
+  .block6 .flex .menu {
+    width: 40%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    text-align: left;
+    padding: 0;
+  }
+  .block6 .flex .menu li {
+    margin: 5px 0;
+  }
+  .block6 .flex .sns {
+    width: 8%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 0;
+    margin-left: 230px;
+  }
+  .block6 .flex .sns svg {
+    margin: 0 12px;
+  }
+  .block6 .attribution {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

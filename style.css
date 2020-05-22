@@ -102,10 +102,13 @@ button:active {
           transform: translateY(3px);
 }
 
-.block1 {
+header {
   background-image: url("images/bg-header-mobile.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.block1 {
   padding-top: 123px;
 }
 
@@ -210,10 +213,13 @@ button:active {
   margin: 17px 0 48px 0;
 }
 
+footer {
+  background-color: #f0f0f0;
+}
+
 .block6 {
   margin-top: 172px;
   padding-top: 52px;
-  background-color: #f0f0f0;
 }
 
 .block6 img {
@@ -299,8 +305,10 @@ button:active {
   p {
     font-size: 17px;
   }
-  .block1 {
+  header {
     background-image: url("images/bg-header-desktop.png");
+  }
+  .block1 {
     padding: 130px 375px 0 375px;
   }
   .block1 h1 {
